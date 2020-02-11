@@ -6,8 +6,8 @@ namespace PagoMes.Entities.Enums
 {
     enum WorkerLevel : int
     {
-        Junior = 0,
-        MidLevel = 1,
-        Senior = 2
+        Junior = 0,     //Basico 
+        MidLevel = 1,   //Medio
+        Senior = 2      //Avançado 
     }
 }

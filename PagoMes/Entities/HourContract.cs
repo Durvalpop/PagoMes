@@ -2,6 +2,7 @@
 
 namespace PagoMes.Entities
 {
+    //Horas_Contratadas
     class HourContract
     {
         public DateTime Date { get; set; }
@@ -12,13 +13,14 @@ namespace PagoMes.Entities
         {
 
         }
+        
         public HourContract(DateTime date, double valuePerHour, int hours)
         {
             Date = date;
             ValuePerHour = valuePerHour;
             Hours = hours;
         }
-
+        //Calculo final_horas_
         public double TotalValue()
         {
             return Hours * ValuePerHour;
